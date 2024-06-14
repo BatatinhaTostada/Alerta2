@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+ <body>
+          <div class="container"> 
+            <h1 class="texto">COMPRE SEU INGRESSO AQUI!!!</h1>
+            
+            <input type="button" onclick="apertar()" class="botao" value="INGRESSOS">
+            <div class="imagem">
+                <fieldset>
+            <img src="img/bruno-mars-show-brasil.webp" alt="">
+         </fieldset>
+         </div>
+         </div>
+         <div class="segundo">
+         <h1 class="texto2">compre seu vinil!!!</h1>
+         <div class="imagem2">
+            <fieldset>
+         <img src="img/0878c85ab978ab6f46ad8b8480ddf55a.jpg" alt="">
+          </fieldset>
+          <input type="button" onclick="apertou()" class="butao2" value="AQUI">
+        </div>
+         </div>
+         <div class="terceiro">    
+            <h1 class="texto3">Almofada de caramelo!</h1>
+            <div class="imagem3">
+            <fieldset>
+            <img src="img/D_NQ_NP_752108-MLB46218302973_052021-O.webp" alt="">
+         </fieldset>
+            <input type="button" onclick="aperte()" class="butao3" value="COMPRAR">
+        </div>
+         </div>
+         <script>
+            function apertar() {
+                Swal.fire({
+                    title: "SE FERROU!",
+                    text: "voce acabou de perder R$1.000",
+                    icon: "error"
+                  });
+            }
+            function apertou() {
+                Swal.fire({
+                    title: "Parabens!!",
+                    text: "sua compra foi efetuada com sucesso!",
+                    icon: "success"
+                  });
+            }
+            function aperte() {
+                Swal.fire({
+                    title: "Houve um erro!",
+                    text: "verifique se efetuou algo de errado na sua compra",
+                    icon: "info"
+                  });
+            }
+         </script>
+        
+</body>
+ </html>
+    
